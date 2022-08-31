@@ -1,0 +1,266 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    padding-bottom: 200px;
+}
+.main{
+    display: flex;
+    justify-content:space-evenly;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    margin: 0px 100px;
+    border-radius:20px;
+    padding: 10px 30px 10px 100px;
+
+}
+#p{
+    text-decoration: none;
+    color: white;
+    display:inline;
+    background-color: orangered;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 100%;
+
+}
+.p-div{
+    margin-top: auto;
+}
+.main h1{
+    font-size: 80px;
+}
+.p{
+    font-size: 20px;
+    
+}
+.main div{
+    width: 50%;
+}
+.img img{
+    width: 100%;
+}
+main{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin: 0px 90px;
+    margin-bottom: 100px;
+  
+    
+}
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 20px 10px;
+}
+.side-bar h1{
+
+    background-color: white;
+    padding: 10px 50px;
+    font-size: 20px;
+    display: block;
+    border-radius: 10px;
+
+}
+.side-bar h1:hover{
+
+    background-color: rgb(203, 243, 147);
+    padding: 10px 50px;
+    font-size: 20px;
+    display: block;
+    border-radius: 10px;
+
+}
+.flag-section{
+    display:flex;
+    flex-direction: column;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 2px #888888;
+    border: 1px solid gray;
+
+
+}
+.flag-section:hover{
+    display:flex;
+    flex-direction: column;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 2px #888888;
+    border: 1px solid gray;
+    background-color: rgb(246, 210, 254);
+
+
+}
+.flag-cart{
+    display: flex;
+}
+.grid-cart{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 100px;
+    grid-gap: 30px;
+    
+
+}
+
+.vs{
+    margin: 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   color: white;
+   background-color: black;
+
+}
+.contact{
+    display: flex;
+    padding: 70px 10px 70px 10px;
+    text-align: center;
+    justify-content: center;
+  
+}
+.contact p{
+      
+   
+    padding-left: 30px;
+}
+.contact p:hover{
+color: rgb(202, 151, 250);
+      
+   
+}
+.goal{
+    padding: 50px 0px;
+}
+.icon a{
+    padding-left: 50px;
+    color: white;
+    font-size: 2rem;
+    
+}
+.icon a:hover{
+    padding-left: 50px;
+    color: rgb(128, 165, 253);
+    font-size: 2rem;
+    
+}
+.icon{
+    padding-bottom: 20px;
+}
+@media screen and (max-width: 576px) {
+    .main{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding:auto;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .flag-section{
+        margin-right: 200px;
+        background-color: #888888;
+       
+    }
+   
+    main{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 10px 0px;
+        margin: 20px 0px;
+       
+    }
+    .grid-cart{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+     
+
+    }
+    .contact{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #p{
+        text-decoration: none;
+        color: white;
+        display:block;
+        background-color: orangered;
+        padding: 10px 30px;
+        border-radius: 5px;
+        font-size: 20px;
+        width: 100%;
+    
+    }
+    .side-bar{
+        margin:20px 0px 20px 20px;
+    }
+
+    
+}
+@media screen and (min-width:768px) and (max-width: 1024px) {
+    
+
+    main{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       margin: 0px;
+    
+       
+    }
+    .grid-cart{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 0px;
+        margin-bottom: 20px;
+        
+     
+
+    }
+    .contact{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .side-bar{
+        margin-bottom: 20px;
+        display:flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .main h1{
+        font-size: 40px;
+    }
+    .p{
+        font-size: 15px;
+        
+    }
+    #p{
+        text-decoration: none;
+        color: white;
+        display:block;
+        background-color: orangered;
+        padding: 10px 30px;
+        border-radius: 5px;
+        font-size: 20px;
+        width: 100%;
+    
+    }
+    
+
+    
+}
